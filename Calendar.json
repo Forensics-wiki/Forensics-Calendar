@@ -3,7 +3,7 @@
     {
         "name": "第十二届全国电子数据取证技术研讨会暨“中科实数杯”全国电子数据取证与司法鉴定挑战赛",
         "signstarttime": "2024-05-15T00:00",
-        "gisnendtime": "2024-07-05T00:00",
+        "signendtime": "2024-07-05T00:00",
         "matchstarttime": "2024-07-12T00:00",
         "matchendtime": "2024-07-14T00:00",
         "teamSize": "3",
@@ -14,7 +14,7 @@
     },{
         "name": "第二届盘古石杯全国电子数据取证大赛 决赛",
         "signstarttime": "2024-04-03T00:00",
-        "gisnendtime": "2024-05-10T00:00",
+        "signendtime": "2024-05-10T00:00",
         "matchstarttime": "2024-06-05T00:00",
         "matchendtime": "2024-06-06T18:00",
         "teamSize": "3",
@@ -25,7 +25,7 @@
     },{
         "name": "2024FIC 第四届全国网络空间取证竞赛 决赛",
         "signstarttime": "2024-04-02T00:00",
-        "gisnendtime": "2024-04-18T00:00",
+        "signendtime": "2024-04-18T00:00",
         "matchstarttime": "2024-05-18T13:00",
         "matchendtime": "2024-05-18T18:00",
         "teamSize": "3",
@@ -36,7 +36,7 @@
     },{
         "name": "平航杯电子数据取证比赛",
         "signstarttime": "2024-03-03T00:00",
-        "gisnendtime": "2024-04-15T12:00",
+        "signendtime": "2024-04-15T12:00",
         "matchstarttime": "2024-04-20T14:00",
         "matchendtime": "2024-04-20T18:00",
         "teamSize": "3",
@@ -47,7 +47,7 @@
     },{
         "name": "獬豸杯电子数据取证比武",
         "signstarttime": "",
-        "gisnendtime": "",
+        "signendtime": "",
         "matchstarttime": "2024-01-28T09:00",
         "matchendtime": "2024-01-28T12:00",
         "teamSize": "1",
