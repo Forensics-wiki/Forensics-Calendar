@@ -3,10 +3,10 @@
     {
         "name": "测试api赛事",
         "signstarttime": "2024-05-29T13:53",
-        "gisnendtime": "2024-05-29T13:53",
+        "signendtime": "2024-05-29T13:53",
         "matchstarttime": "2024-05-29T13:53",
         "matchendtime": "2024-05-29T13:53",
-        "teamSize": "unlimited",
+        "teamSize": "无限制",
         "description": "测试api赛事",
         "link": "测试api赛事测试api赛事",
         "chat": "测试api赛事测试api赛事",
