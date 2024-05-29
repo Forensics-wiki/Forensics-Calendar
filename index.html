@@ -70,11 +70,13 @@ function generateJSON() {
     var officialLink = document.getElementById('official-link').value;
     var eventChat = document.getElementById('event-chat').value;
     var eventother = document.getElementById('event-other').value;
+    var teamSize = document.getElementById('team-size').value;
 
     var eventInfo = {
         name: eventName,
         starttime: starttime,
         endtime: endtime,
+        teamSize: teamSize,
         description: eventDescription,
         link: officialLink,
         chat: eventChat,
@@ -114,6 +116,15 @@ function copyJSON() {
 
     <label for="event-end-time">结束时间:</label>
     <input type="datetime-local" id="event-end-time" name="event-end-time"><br><br>
+
+    <label for="team-size">队伍人数:</label>
+    <select id="team-size" name="team-size">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="unlimited">不限</option>
+    </select><br><br>
 
     <label for="event-description">赛事简介:</label>
     <textarea id="event-description" name="event-description"></textarea><br><br>
