@@ -64,12 +64,14 @@
 <script>
 function generateJSON() {
     var eventName = document.getElementById('event-name').value;
+    var year = document.getElementById('year').value;
     var writeauthor = document.getElementById('writeup-author').value;
     var writeuplink = document.getElementById('writeup-link').value;
     var writeupother = document.getElementById('writeup-other').value;
 
     var eventInfo = {
         name: eventName,
+        year: year,
         writeauthor: writeauthor,
         writeuplink: writeuplink,
         writeupother: writeupother
@@ -102,6 +104,18 @@ function copyJSON() {
 <form id="event-form">
     <label for="event-name">赛事名称:</label>
     <input type="text" id="event-name" name="event-name"><br><br>
+
+    <label for="year">赛事年份:</label>
+    <select id="year" name="year">
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+    </select><br><br>
 
     <label for="writeup-author">作者:</label>
     <input type="text" id="writeup-author" name="writeup-author"><br><br>
