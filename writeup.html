@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Writeup信息表单</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+    h1, h2 {
+        color: #333;
+    }
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        max-width: 600px;
+        margin: auto;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    input[type="text"], textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    textarea {
+        resize: vertical; 
+    }
+    button {
+        padding: 10px 20px;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    button:hover {
+        background-color: #4cae4c;
+    }
+    pre {
+        background-color: #eee;
+        border: 1px solid #ddd;
+        border-left: 3px solid #f39c12;
+        color: #333;
+        page-break-inside: avoid;
+        font-family: monospace;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        padding: 20px;
+        margin-top: 20px;
+    }
+</style>
+<script>
+function generateJSON() {
+    var eventName = document.getElementById('event-name').value;
+    var writeauthor = document.getElementById('writeup-author').value;
+    var writeuplink = document.getElementById('writeup-link').value;
+    var writeupother = document.getElementById('writeup-other').value;
+
+    var eventInfo = {
+        name: eventName,
+        writeauthor: writeauthor,
+        writeuplink: writeuplink,
+        writeupother: writeupother
+    };
+
+    var jsonString = JSON.stringify(eventInfo, null, 2);
+
+    document.getElementById('json-output').textContent = jsonString;
+}
+function copyJSON() {
+    var jsonOutput = document.getElementById('json-output');
+
+    if (jsonOutput.textContent) {
+        
+        navigator.clipboard.writeText(jsonOutput.textContent).then(function() {
+            alert('JSON已复制到剪贴板！');
+        }).catch(function(err) {
+            alert('复制失败：' + err);
+        });
+    } else {
+        alert('请先生成JSON！');
+    }
+}
+</script>
+</head>
+<body>
+
+<h1>Writeup信息输入</h1>
+
+<form id="event-form">
+    <label for="event-name">赛事名称:</label>
+    <input type="text" id="event-name" name="event-name"><br><br>
+
+    <label for="writeup-author">作者:</label>
+    <input type="text" id="writeup-author" name="writeup-author"><br><br>
+    <label for="writeup-link">Writeup链接:</label>
+    <input type="text" id="writeup-link" name="writeup-link"><br><br>
+
+    <label for="writeup-other">备注信息:</label>
+    <input type="text" id="writeup-other" name="writeup-other"><br><br>
+
+    <button type="button" onclick="generateJSON()">生成JSON</button>
+</form>
+
+<h2>生成的JSON:</h2>
+<pre id="json-output"></pre>
+<button type="button" onclick="copyJSON()">复制JSON</button>
+
+</body>
+</html>
