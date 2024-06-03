@@ -1,6 +1,18 @@
 
 [
     {
+        "name": "R3CTF 2024",
+        "signstarttime": "2024-06-03T18:36",
+        "signnendtime": "2024-06-10T10:00",
+        "matchstarttime": "2024-06-08T10:00",
+        "matchendtime": "2024-06-10T10:00",
+        "teamSize": "3",
+        "description": "r3kapig is a united CTF Team that mostly emerged its members from Eur3kA and FlappyPig since 2018. And just so you know, r3kapig is a delicious dish that can be grilled and fried, and the mission of the team is to provide the most delicious food for the host. :P\n\nWe actively participate in online and on-site CTF competitions. You can browse our recently participated events and ranks on CTFtime. We are a group of cybersecurity enthusiasts interested in various areas, including software security, web security, cryptography, IoT security, etc.\n\nIMPORTANT NOTE:\nWe accept membership requests only if previously notified.\nIf you're interested in joining our team, please get in touch with root@r3kapig.com for more information.\n\nFOR CURRENT TEAM MEMBERS:\nPlease contact `crazyman` or `stypr` to get member registration.\n请联系stypr或crazyman进行会员注册。",
+        "link": "https://ctftime.org/team/58979",
+        "chat": "暂无",
+        "other": ""
+    }
+    {
         "name": "第十二届全国电子数据取证技术研讨会暨“中科实数杯”全国电子数据取证与司法鉴定挑战赛",
         "signstarttime": "2024-05-15T00:00",
         "signendtime": "2024-07-05T00:00",
