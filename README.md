@@ -5,6 +5,7 @@
 
 - 赛事日程：https://forensics-wiki.github.io/Forensics-Calendar/calendar.html
 - Writeup: https://forensics-wiki.github.io/Forensics-Calendar/writeup.html
+- 检材：https://forensics-wiki.github.io/Forensics-Calendar/download.html
 
 ## 添加赛事
 1. 如需添加赛事，请进入`index.html`页面
