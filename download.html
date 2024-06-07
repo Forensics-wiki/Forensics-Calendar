@@ -67,6 +67,8 @@ function generateJSON() {
     var eventyear = document.getElementById('event-year').value;
     var filelink = document.getElementById('file-link').value;
     var linknum = document.getElementById('link-num').value;
+    var hash = document.getElementById('hash').value;
+    var password = document.getElementById('password').value;
     var eventother = document.getElementById('other').value;
 
     var eventInfo = {
@@ -74,6 +76,8 @@ function generateJSON() {
         eventyear: eventyear,
         filelink: filelink,
         linknum: linknum,
+        hash: hash,
+        password: password,
         eventother: eventother
     };
 
@@ -120,13 +124,19 @@ function copyJSON() {
     </select><br><br>
 
     <label for="file-link">检材链接:</label>
-    <textarea id="file-link" name="file-link"></textarea><br><br>
+    <input type="text" id="file-link" name="file-link"></input><br><br>
 
     <label for="link-num">提取码:</label>
-    <input type="text" id="link-num" name="link-num"><br><br>
+    <input type="text" id="link-num" name="link-num"></input><br><br>
+
+    <label for="hash">哈希校验值:</label>
+    <textarea type="text" id="hash" name="hash"></textarea><br><br>
+
+    <label for="password">挂载/解压密码:</label>
+    <input type="text" id="password" name="password"></input><br><br>
 
     <label for="other">备注信息:</label>
-    <input type="text" id="other" name="other"><br><br>
+    <input type="text" id="other" name="other"></input><br><br>
 
     <button type="button" onclick="generateJSON()">生成JSON</button>
 </form>
