@@ -73,10 +73,10 @@ body:
     validations:
       required: true
 
- - type: input
-   id: other
-   attributes:
-     label: 备注信息
-     placeholder: "无"
-   validations:
-     required: true
+  - type: input
+    id: other
+    attributes:
+      label: 备注信息
+      placeholder: "无"
+    validations:
+      required: true
