@@ -34,8 +34,8 @@ body:
     id: bmks
     attributes:
       label: 报名开始时间
-      description: 格式 yyyy年-MM月-dd日 HH:mm:ss
-      placeholder: "2024年01月01日 00:00:00"
+      description: 格式 yyyy-MM-dd HH:mm:ss
+      placeholder: "2024-01-01 00:00:00"
     validations:
       required: true
 
@@ -43,8 +43,8 @@ body:
     id: bmjz
     attributes:
       label: 报名结束时间
-      description: 格式 yyyy年-MM月-dd日 HH:mm:ss
-      placeholder: "2024年01月02日 00:00:00"
+      description: 格式 yyyy-MM-dd HH:mm:ss
+      placeholder: "2024-01-02 00:00:00"
     validations:
       required: true
   
@@ -52,7 +52,7 @@ body:
     id: bsks
     attributes:
       label: 比赛开始时间
-      placeholder: "2024年01月03日 00:00:00"
+      placeholder: "2024-01-03 00:00:00"
     validations:
       required: true
 
@@ -60,7 +60,7 @@ body:
     id: bsjs
     attributes:
       label: 比赛结束时间
-      placeholder: "2024年01月04日 00:00:00"
+      placeholder: "2024-01-04 00:00:00"
     validations:
       required: true
   
