@@ -1,10 +1,10 @@
 name: 添加比赛
-description: 
+description: 用户提交比赛信息的Issue模板
 title: "<添加比赛>"
 labels: []
 assignees:
   - mcyydscc 
-body:
+body: 
   - type: input
     id: name
     attributes:
