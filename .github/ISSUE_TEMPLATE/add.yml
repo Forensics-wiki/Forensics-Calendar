@@ -1,0 +1,82 @@
+name: 添加比赛
+description: 
+title: "<添加比赛>"
+labels: []
+assignees:
+  - mcyydscc 
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 赛事名称
+      placeholder: DIDCTF
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: 比赛官方链接
+      placeholder: https://forensics.didctf.com/
+    validations:
+      required: true
+
+  - type: input
+    id: type
+    attributes:
+      label: 团队人数
+      description: 请注明人数
+      placeholder: 3
+    validations:
+      required: true
+
+  - type: input
+    id: bmks
+    attributes:
+      label: 报名开始时间
+      description: 格式 yyyy年-MM月-dd日 HH:mm:ss
+      placeholder: 2024年01月01日 00:00:00
+    validations:
+      required: true
+
+  - type: input
+    id: bmjz
+    attributes:
+      label: 报名结束时间
+      description: 格式 yyyy年-MM月-dd日 HH:mm:ss
+      placeholder: 2024年01月02日 00:00:00
+    validations:
+      required: true
+  
+  - type: input
+    id: bsks
+    attributes:
+      label: 比赛开始时间
+      placeholder: 2024年01月03日 00:00:00
+    validations:
+      required: true
+
+  - type: input
+    id: bsjs
+    attributes:
+      label: 比赛结束时间
+      placeholder: 2024年01月04日 00:00:00
+    validations:
+      required: true
+  
+  - type: input
+    id: qq
+    attributes:
+      label: 赛事群聊
+      description: 填写比赛官方群聊
+      placeholder: 123456789
+    validations:
+      required: true
+
+  - type: input
+    id: other
+    attributes:
+      label: 备注信息
+      placeholder: xxx
+    validations:
+      required: true
