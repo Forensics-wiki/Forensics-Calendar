@@ -1,6 +1,17 @@
 
 [
     {
+        "name": "第二届 龙信杯 电子数据取证竞赛",
+        "signstarttime": "2024-09-19T14:00",
+        "signendtime": "2024-09-24T23:00",
+        "matchstarttime": "2024-09-29T00:00",
+        "matchendtime": "2024-09-29T23:59",
+        "teamSize": "1",
+        "description": "主办单位：西南政法大学、山东警察学院\n承办单位：苏州龙信信息科技有限公司协办单位：重庆警察学院、甘肃政法大学、江西警察学院、福建警察学院、广东警察学院",
+        "link": "https://mp.weixin.qq.com/s/cEkwRxZ63oH4cfpb2Ro2fw?scene=25#wechat_redirect",
+        "chat": "微信群 请添加官方人员进群",
+        "other": "学生组预报名微信号：longxiaoxin888 职业组预报名微信号：longxintech2021"
+    },{
         "name": "R3CTF 2024",
         "signstarttime": "2024-06-03T18:36",
         "signendtime": "2024-06-10T10:00",
