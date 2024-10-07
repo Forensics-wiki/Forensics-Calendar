@@ -1,6 +1,17 @@
 
 [
     {
+        "name": "第十届 美亚杯 全国电子数据取证大赛",
+        "signstarttime": "2024-09-28T00:00",
+        "signendtime": "2024-10-28T00:00",
+        "matchstarttime": "2024-11-09T08:30",
+        "matchendtime": "2024-11-09T19:00",
+        "teamSize": "3",
+        "description": "https://mp.weixin.qq.com/s/O8bFS0AjC-X7ChDtqR0tUw",
+        "link": "https://www.meiyacup.com/",
+        "chat": "暂无",
+        "other": "线上参赛选手每人100元；线下参加人员（选手和其他人员）会务费每人600元，交通费、食宿费自理。"
+    },{
         "name": "第二届 龙信杯 电子数据取证竞赛",
         "signstarttime": "2024-09-19T14:00",
         "signendtime": "2024-09-24T23:00",
