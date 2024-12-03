@@ -2,6 +2,6 @@
   # Define which paths this specific [[headers]] block will cover.
   for = "/"
     [headers.values]
-    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Origin = "https://forensics.didctf.com"
     Access-Control-Allow-Headers = "Content-Type"
-    Access-Control-Allow-Methods = "*"
+    Access-Control-Allow-Methods = "POST, PUT, PATCH, GET, DELETE, OPTIONS"
